@@ -25,7 +25,15 @@
             ></v-toolbar-side-icon>
             <v-spacer class="hidden-md-and-up"></v-spacer>
             <router-link to="/">
-                <v-toolbar-title data-cy="titleBtn">{{
+                <div style="position:absolute">
+                    <v-img
+                        src="https://cdn.discordapp.com/attachments/779706063058108436/780038236701327410/logos.png"
+                        height="40px"
+                        width="40px"
+                    >
+                    </v-img>
+                </div>
+                <v-toolbar-title data-cy="titleBtn" style="margin-left: 45px">{{
                     appTitle
                 }}</v-toolbar-title>
             </router-link>
