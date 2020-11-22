@@ -35,7 +35,9 @@
                                 style="margin:10px"
                             >
                                 <v-card-title class="headline">
-                                Melhor musica de todas
+                                    <p style="top: 0px;right: 0;position: absolute;padding-right:5px">+</p>
+                                Melhor música de todas
+                                    <p style="bottom: 0px;right: 0;position: absolute;padding-right:5px;margin-bottom: 0px;font-size:15px">00:20 - 05:20</p>
                                 </v-card-title>
                                 <v-card-actions>
                                 </v-card-actions>
