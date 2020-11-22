@@ -28,12 +28,26 @@
                         <v-flex class="font-weight-black"
                             >Anotações</v-flex
                         >
+                        <div id="anot" >
+                            <v-card
+                                color="#385F73"
+                                dark
+                                style="margin:10px"
+                            >
+                                <v-card-title class="headline">
+                                Melhor musica de todas
+                                </v-card-title>
+                                <v-card-actions>
+                                </v-card-actions>
+                            </v-card>
+                        </div>
                         <v-btn
                             class="center"
                             fab
                             dark
                             small
                             color="indigo"
+                            onClick="criarAnotacao()"
                             >
                                 +
                         </v-btn>
@@ -45,22 +59,9 @@
 </template>
 
 <script>
-export default {
-    name: 'Japones'
-};
-var tag = document.createElement('script');
-  tag.src = "https://www.youtube.com/player_api";
-  var firstScriptTag = document.getElementsByTagName('script')[0];
-  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-  // Replace the 'ytplayer' element with an <iframe> and
-  // YouTube player after the API code downloads.
-  var player;
-  function onYouTubePlayerAPIReady() {
-    player = new YT.Player('ytplayer', {
-      videoId: 'Wy9q22isx3U'
-    });
-  }
+    export default {
+        name: 'Japones'
+    };
 </script>
 
 <style scoped></style>

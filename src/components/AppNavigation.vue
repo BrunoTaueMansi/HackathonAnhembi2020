@@ -49,7 +49,7 @@
                 class="hidden-sm-and-down nav-menu"
                 to="/materias"
                 data-cy="menuBtn"
-                >Materia</v-btn
+                >Matéria</v-btn
             >
             <v-spacer class="hidden-sm-and-down"></v-spacer>
             <div v-if="!isAuthenticated" class="hidden-sm-and-down">
