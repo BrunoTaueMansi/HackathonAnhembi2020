@@ -165,9 +165,9 @@
                     </v-responsive>
                     <v-card-text>
                         <div>
-                            <h3 class="headline mb-0">Japones</h3>
+                            <h3 class="headline mb-0">Japonês</h3>
                             <div>
-                                Aprenda Japones com o prof. Vinecious Riróqui.
+                                Aprenda Japonês com o prof. Vinecious Riróqui.
                             </div>
                         </div>
                     </v-card-text>

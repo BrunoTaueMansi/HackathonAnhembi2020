@@ -69,14 +69,6 @@ export default new Vuex.Store({
                     commit('setIsAuthenticated', false);
                     router.push('/');
                 });
-        },
-        getmaterias({ state, commit }) {
-            return firebase
-                .database()
-                .ref('users/' + state.user.user.uid)
-                .once('value', snapshot => {
-                    commit('setmaterias', snapshot.val());
-                });
         }
     },
     getters: {
