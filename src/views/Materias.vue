@@ -95,7 +95,7 @@
                 <v-card>
                     <v-responsive>
                         <v-img
-                            src="https://media.discordapp.net/attachments/779706063058108436/779784566331670618/img_57984_foto_1_a.jpg"
+                            src="https://media.discordapp.net/attachments/779706063058108436/780097186368978944/IndependeCC82ncia-do-Brasil_Pedro_AmeCC81rico.png"
                             height="200px"
                         >
                         </v-img>
