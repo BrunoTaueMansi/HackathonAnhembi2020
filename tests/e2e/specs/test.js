@@ -46,11 +46,11 @@ describe('Meal Prep', () => {
 
         it('Redirects to homepage when not logged in', () => {
             cy.visit('/about');
-            cy.location('pathname').should('equal', '/sign-in');
+            cy.location('pathname').should('equal', '/cadastro');
         });
 
         it('Shows the about page when logged in', () => {
-            cy.visit('/sign-in');
+            cy.visit('/cadastro');
             cy.login();
             cy.location('pathname').should('equal', '/about');
         });

@@ -17,10 +17,7 @@ const router = new Router({
         {
             path: '/materias',
             name: 'materias',
-            component: () => import('./views/Materias.vue'),
-            meta: {
-                authRequired: true
-            }
+            component: () => import('./views/Materias.vue')
         },
         {
             path: '/quem-somos',
@@ -28,14 +25,14 @@ const router = new Router({
             component: () => import('./views/QuemSomosPage.vue')
         },
         {
-            path: '/sign-in',
-            name: 'signin',
-            component: () => import('./views/Signin.vue')
+            path: '/cadastro',
+            name: 'cadastro',
+            component: () => import('./views/Cadastro.vue')
         },
         {
-            path: '/join',
-            name: 'join',
-            component: () => import('./views/Join.vue')
+            path: '/login',
+            name: 'login',
+            component: () => import('./views/Login.vue')
         }
     ]
 });
@@ -44,7 +41,7 @@ router.beforeEach((to, from, next) => {
     if (to.matched.some(record => record.meta.authRequired)) {
         if (!store.state.isAuthenticated) {
             next({
-                path: '/sign-in'
+                path: '/cadastro'
             });
         } else {
             next();
