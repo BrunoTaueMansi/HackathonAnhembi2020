@@ -35,7 +35,7 @@
 
 <script>
 export default {
-    name: 'MealRecipes',
+    name: 'Materias',
     computed: {
         recipes() {
             return this.$store.state.recipes;
@@ -49,7 +49,7 @@ export default {
             if (this.isAuthenticated) {
                 this.$store.dispatch('addRecipe', item);
             } else {
-                this.$router.push('/sign-in');
+                this.$router.push('/cadastro');
             }
         }
     }

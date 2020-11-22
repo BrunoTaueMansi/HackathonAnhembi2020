@@ -25,7 +25,7 @@ export default new Vuex.Store({
         }
     },
     actions: {
-        userLogin({ commit }, { email, password }) {
+        cadastro({ commit }, { email, password }) {
             firebase
                 .auth()
                 .signInWithEmailAndPassword(email, password)
@@ -40,7 +40,7 @@ export default new Vuex.Store({
                     router.push('/');
                 });
         },
-        userJoin({ commit }, { email, password }) {
+        login({ commit }, { email, password }) {
             firebase
                 .auth()
                 .createUserWithEmailAndPassword(email, password)

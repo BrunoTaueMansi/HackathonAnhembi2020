@@ -36,15 +36,22 @@
                 data-cy="menuBtn"
                 >Quem Somos</v-btn
             >
+            <v-btn
+                flat
+                class="hidden-sm-and-down nav-menu"
+                to="/materias"
+                data-cy="menuBtn"
+                >Materia</v-btn
+            >
             <v-spacer class="hidden-sm-and-down"></v-spacer>
             <div v-if="!isAuthenticated" class="hidden-sm-and-down">
-                <v-btn flat to="/sign-in" data-cy="signinBtn">SIGN IN</v-btn>
+                <v-btn flat to="/cadastro" data-cy="signinBtn">Cadastro</v-btn>
                 <v-btn
                     color="cyan lighten-3"
-                    to="/join"
+                    to="/login"
                     class="nav-join"
                     data-cy="joinBtn"
-                    >JOIN</v-btn
+                    >login</v-btn
                 >
             </div>
             <div v-else>
@@ -67,8 +74,8 @@ export default {
             items: [
                 { title: 'QuemSomos', url: '/quem-somos' },
                 { title: 'Materias', url: '/materias' },
-                { title: 'Sign In', url: '/sign-in' },
-                { title: 'Join', url: '/join' }
+                { title: 'Cadastro', url: '/cadastro' },
+                { title: 'Login', url: '/login' }
             ]
         };
     },
