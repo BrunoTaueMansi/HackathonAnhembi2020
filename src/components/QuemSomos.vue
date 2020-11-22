@@ -30,7 +30,7 @@
                         <div>
                             <h3 class="headline mb-0">Hiro</h3>
                             <div>
-                                Prazer eu sou Vinicius Hiroki Vulgo Hiro, curso Ciências da computação
+                                Prazer eu sou Vinicius Hiroki aka "Hiro", curso Ciências da computação
                                  e atualmente estou no 6º semestre, Java é a linguagem que possuo a
                                   maior afinidade. Moro em Mauá e sou zoado pelos meu companheiros
                                    por isso. Não meço esforços em dar passeios nos dias chuvosos,
@@ -64,7 +64,8 @@
                         <div>
                             <h3 class="headline mb-0">Samorai</h3>
                             <div>
-                                Sou Bruno Taue Mansi, tenho 21 anos, gosto de Back-End, Banco de Dados e Mobile. Aprecio ter contato com novas tecnologias e sou um admirador assíduo da NBA.
+                                Sou Bruno Taue Mansi aka "Samorai", tenho 21 anos, gosto de Back-End, Banco de Dados e Mobile.
+                                 Aprecio ter contato com novas tecnologias e sou um admirador assíduo da NBA.
                             </div>
                         </div>
                     </v-card-text>
@@ -94,7 +95,8 @@
                         <div>
                             <h3 class="headline mb-0">Marchello</h3>
                             <div>
-                                 Sou o Marcelo Pereira, tenho 19 anos, gosto de Banco de dados e Analytics. Sempre estou em busca de novos conhecimentos e sou um viciado em Genshin.
+                                 Sou o Marcelo Pereira aka "Marchello", tenho 19 anos, gosto de Banco de dados e Analytics.
+                                  Sempre estou em busca de novos conhecimentos e sou um viciado em Genshin.
                             </div>
                         </div>
                     </v-card-text>
@@ -124,7 +126,7 @@
                         <div>
                             <h3 class="headline mb-0">Zazaki</h3>
                             <div>
-                                Sou Nicholas Sakan Yazaki, 21 anos, estudante de Ciências da Computação do 6º semestre, conhecimentos em Java e streamer nas horas vagas.
+                                Sou Nicholas Sakan Yazaki aka "25%", 21 anos, estudante de Ciências da Computação do 6º semestre, conhecimentos em Java e streamer nas horas vagas.
                             </div>
                         </div>
                     </v-card-text>
