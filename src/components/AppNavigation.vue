@@ -69,7 +69,7 @@ export default {
     name: 'AppNavigation',
     data() {
         return {
-            appTitle: 'HackaVideos',
+            appTitle: 'AnotaMais',
             drawer: false,
             items: [
                 { title: 'QuemSomos', url: '/quem-somos' },

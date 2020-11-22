@@ -27,7 +27,7 @@
                         Isso mesmo meu querido aluno, estamos pensando em você. 
                         Para não perder aquele momento importante da aula, adicionamos
                         a função de criar anotações ou clipes para as gravações e 
-                        apresentações do HackaVideos. Mas não é só isso, caso você 
+                        apresentações do AnotaMais. Mas não é só isso, caso você 
                         queira, pode compartilhar com a sala todas as suas 
                         anotações ou clipes. Quem sabe você não consiga clipar um 
                         momento engraçado da aula?
