@@ -53,7 +53,7 @@
                 <v-card>
                     <v-responsive>
                         <v-img
-                            src="https://media.discordapp.net/attachments/779706063058108436/779785436826566696/unknown.png"
+                            src="https://media.discordapp.net/attachments/779706063058108436/780069502779392000/unknown.png"
                             height="200px"
                         >
                         </v-img>
